@@ -9,6 +9,22 @@ I've had a varied work history before becoming a Software Developer in 2018 - fr
 to Taxi driving, and running medium-sized business - but I've always had one eye on software and how to build it.
 
 ---
+##### 2023 &rarr; Present
+Raviga
+
+---
+##### 2022 &rarr; 2023
+CoreBlue
+
+---
+##### 2021 &rarr; 2022
+CarePlanner
+
+---
+##### 2019 &rarr; 2021
+The Range
+
+---
 ##### 2018 &rarr; 2019
 I started my career in software development as a junior at a company whose business is importing motorcycles and selling
 them through UK-wide distributors.  They also kept a warehouse stocked with official spare parts for those bikes, and
