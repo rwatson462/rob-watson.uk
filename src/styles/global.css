@@ -52,15 +52,15 @@ a {
 }
 
 a:hover {
-	@apply text-sky-500 underline;
+	@apply text-purple-500 underline;
 }
 
-p {
-	margin-bottom: 1em;
+.prose {
+	@apply space-y-8;
 }
 
-.prose p {
-	margin-bottom: 2em;
+.prose ul {
+	@apply list-disc pl-8;
 }
 
 textarea {
@@ -96,7 +96,7 @@ pre > code, pre > kbd {
 }
 
 blockquote {
-	@apply border-l-4 border-sky-500 pl-4 rounded;
+	@apply border-l-4 border-purple-500 pl-4 rounded;
 }
 
 hr {

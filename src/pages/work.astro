@@ -1,0 +1,30 @@
+---
+import {getCollection} from "astro:content";
+import BasePage from "../layouts/BasePage.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+
+const entries = await getCollection('work');
+const {data: {title, description, updatedDate, heroImage}, ...entry} = entries[0]
+const { Content } = await entry.render();
+---
+
+<BasePage
+	title={title}
+	description={description}
+>
+	<article>
+		<div class="w-full">
+			<img width={1020} height={510} src={heroImage} alt={title} class="shadow rounded-lg" />
+		</div>
+		<div class="text-center py-4 space-y-2">
+			<div class="italic">
+				<FormattedDate date={updatedDate} />
+			</div>
+			<h1>{title}</h1>
+			<hr />
+		</div>
+		<div class="prose">
+			<Content/>
+		</div>
+	</article>
+</BasePage>
