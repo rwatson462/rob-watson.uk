@@ -1,10 +1,9 @@
 ---
-import {getCollection} from "astro:content";
+import {getEntry} from "astro:content";
 import BasePage from "../layouts/BasePage.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 
-const entries = await getCollection('content')
-const {data, ...entry} = entries.filter(entry => entry.data.type === 'history')[0];
+const {data, ...entry} = await getEntry('content', 'history')
 const { Content } = await entry.render();
 ---
 
