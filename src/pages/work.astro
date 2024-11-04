@@ -4,7 +4,7 @@ import BasePage from "../layouts/BasePage.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 
 const entries = await getCollection('content')
-const {data, ...entry} = entries.filter(entry => entry.data.title === 'Work history')[0];
+const {data, ...entry} = entries.filter(entry => entry.data.type === 'history')[0];
 const { Content } = await entry.render();
 ---
 
