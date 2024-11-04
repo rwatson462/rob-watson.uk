@@ -10,6 +10,7 @@ const content = defineCollection({
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
+		type: z.union([z.literal('blog'), z.literal('history')]),
 	}),
 });
 

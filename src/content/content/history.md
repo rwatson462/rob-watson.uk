@@ -4,6 +4,7 @@ description: 'A brief overview of my work experience'
 pubDate: 'Nov 3 2024'
 updatedDate: 'Nov 3 2024'
 heroImage: '/blog-placeholder-4.jpg'
+type: 'history'
 ---
 I've had a varied work history before becoming a Software Developer in 2018 - from telephone based tech support
 to Taxi driving, and running medium-sized business - but I've always had one eye on software and how to build it.
