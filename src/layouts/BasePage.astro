@@ -18,8 +18,8 @@ const { title, description } = Astro.props
     </head>
     <body class="text-stone-900 flex flex-col justify-between h-dvh min-h-dvh">
         <Header/>
-        <div class="bg-gradient-to-tr from-stone-50 to-stone-100 py-8 flex-grow">
-            <main class="max-w-3xl w-full p-0 md:p-8 mx-auto space-y-4">
+        <div class="bg-gradient-to-tr from-stone-50 to-stone-100 py-8 flex-grow z-10">
+            <main class="max-w-3xl w-full p-4 md:p-8 mx-auto space-y-4">
                 <slot/>
             </main>
         </div>

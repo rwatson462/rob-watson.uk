@@ -2,6 +2,14 @@
 const today = new Date();
 ---
 
-<footer class="py-4 px-2 bg-white border-t-2 text-center">
-	&copy; {today.getFullYear()} Rob Watson.
+<footer class="py-4 px-2 bg-white border-t-2 flex justify-center items-center gap-4 max-sm:flex-col">
+	<p>&copy; {today.getFullYear()} Rob Watson.</p>
+	<p>Screen size:
+		<span class="sm:hidden">XS</span>
+		<span class="max-sm:hidden md:hidden">SM</span>
+		<span class="max-md:hidden lg:hidden">MD</span>
+		<span class="max-lg:hidden xl:hidden">LG</span>
+		<span class="max-xl:hidden 2xl:hidden">XL</span>
+		<span class="max-2xl:hidden">2XL</span>
+	</p>
 </footer>
