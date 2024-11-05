@@ -13,17 +13,44 @@ to Taxi driving, and running medium-sized business - but I've always had one eye
 ##### 2023 &rarr; Present
 Raviga
 
+Key technologies used:
+* PHP (Laravel)
+* Javascript (React, Vue)
+* MySQL, Redis, DynamoDb
+* Git (version control)
+* Laravel Vapor (fully automated deployments)
+
 ---
 ##### 2022 &rarr; 2023
 CoreBlue
+
+Key technologies used:
+* PHP (Laravel, Symfony)
+* Javascript (Vue, React)
+* MySQL, Postgres, Redis
+* Git (version control)
+* AWS (fully automated deployments)
 
 ---
 ##### 2021 &rarr; 2022
 CarePlanner
 
+Key technologies used:
+* PHP (Symfony)
+* Javascript (Vue)
+* Git (version control)
+* AWS (fully automated deployments)
+
 ---
 ##### 2019 &rarr; 2021
 The Range
+
+Key technologies used:
+* PHP (no frameworks)
+* Javascript (no frameworks)
+* MySQL, Redis
+* CVS (version control)
+* Linux (servers, manual deployments)
 
 ---
 ##### 2018 &rarr; 2019
@@ -40,6 +67,13 @@ web-based apps, including:
 
 There was rarely a dull moment handling with so much of the system built and maintained in-house, but after 6 months I
 outgrew the position and needed to move on to progress my career.
+
+Key technologies used:
+* PHP (no frameworks)
+* Javascript (jQuery)
+* MySQL
+* Git (version control)
+* Linux (servers, semi-automated deployments through scripts)
 
 ---
 ##### 2015 &rarr; 2018
